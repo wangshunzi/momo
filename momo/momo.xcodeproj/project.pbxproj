@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1802A3F51D16760A00A44FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A3F41D16760A00A44FDC /* main.m */; };
+		1802A3F81D16760A00A44FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A3F71D16760A00A44FDC /* AppDelegate.m */; };
+		1802A3FB1D16760A00A44FDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A3FA1D16760A00A44FDC /* ViewController.m */; };
+		1802A3FE1D16760A00A44FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802A3FC1D16760A00A44FDC /* Main.storyboard */; };
+		1802A4001D16760A00A44FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1802A3FF1D16760A00A44FDC /* Assets.xcassets */; };
+		1802A4031D16760A00A44FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802A4011D16760A00A44FDC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1802A3F01D16760A00A44FDC /* momo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802A3F41D16760A00A44FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1802A3F61D16760A00A44FDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1802A3F71D16760A00A44FDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1802A3F91D16760A00A44FDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1802A3FA1D16760A00A44FDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1802A3FD1D16760A00A44FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1802A3FF1D16760A00A44FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1802A4021D16760A00A44FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1802A4041D16760A00A44FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1802A3ED1D16760A00A44FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1802A3E71D16760A00A44FDC = {
+			isa = PBXGroup;
+			children = (
+				1802A3F21D16760A00A44FDC /* momo */,
+				1802A3F11D16760A00A44FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1802A3F11D16760A00A44FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1802A3F01D16760A00A44FDC /* momo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1802A3F21D16760A00A44FDC /* momo */ = {
+			isa = PBXGroup;
+			children = (
+				1802A3F61D16760A00A44FDC /* AppDelegate.h */,
+				1802A3F71D16760A00A44FDC /* AppDelegate.m */,
+				1802A3F91D16760A00A44FDC /* ViewController.h */,
+				1802A3FA1D16760A00A44FDC /* ViewController.m */,
+				1802A3FC1D16760A00A44FDC /* Main.storyboard */,
+				1802A3FF1D16760A00A44FDC /* Assets.xcassets */,
+				1802A4011D16760A00A44FDC /* LaunchScreen.storyboard */,
+				1802A4041D16760A00A44FDC /* Info.plist */,
+				1802A3F31D16760A00A44FDC /* Supporting Files */,
+			);
+			path = momo;
+			sourceTree = "<group>";
+		};
+		1802A3F31D16760A00A44FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1802A3F41D16760A00A44FDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1802A3EF1D16760A00A44FDC /* momo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802A4071D16760A00A44FDC /* Build configuration list for PBXNativeTarget "momo" */;
+			buildPhases = (
+				1802A3EC1D16760A00A44FDC /* Sources */,
+				1802A3ED1D16760A00A44FDC /* Frameworks */,
+				1802A3EE1D16760A00A44FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = momo;
+			productName = momo;
+			productReference = 1802A3F01D16760A00A44FDC /* momo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1802A3E81D16760A00A44FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1802A3EF1D16760A00A44FDC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1802A3EB1D16760A00A44FDC /* Build configuration list for PBXProject "momo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1802A3E71D16760A00A44FDC;
+			productRefGroup = 1802A3F11D16760A00A44FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1802A3EF1D16760A00A44FDC /* momo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1802A3EE1D16760A00A44FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802A4031D16760A00A44FDC /* LaunchScreen.storyboard in Resources */,
+				1802A4001D16760A00A44FDC /* Assets.xcassets in Resources */,
+				1802A3FE1D16760A00A44FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1802A3EC1D16760A00A44FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802A3FB1D16760A00A44FDC /* ViewController.m in Sources */,
+				1802A3F81D16760A00A44FDC /* AppDelegate.m in Sources */,
+				1802A3F51D16760A00A44FDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1802A3FC1D16760A00A44FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1802A3FD1D16760A00A44FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1802A4011D16760A00A44FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1802A4021D16760A00A44FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1802A4051D16760A00A44FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1802A4061D16760A00A44FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1802A4081D16760A00A44FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = momo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XMG.momo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1802A4091D16760A00A44FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = momo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XMG.momo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1802A3EB1D16760A00A44FDC /* Build configuration list for PBXProject "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802A4051D16760A00A44FDC /* Debug */,
+				1802A4061D16760A00A44FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802A4071D16760A00A44FDC /* Build configuration list for PBXNativeTarget "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802A4081D16760A00A44FDC /* Debug */,
+				1802A4091D16760A00A44FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1802A3E81D16760A00A44FDC /* Project object */;
+}
